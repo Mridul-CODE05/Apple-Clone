@@ -1,0 +1,33 @@
+:root {
+    --apple-font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+        "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--apple-font);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+    background-color: rgb(29, 29, 31);
+    color: white;
+    padding: 5px;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.heropage{
+    background-image: url("images/hero_iphone_18_pro.jpg");
+    color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+}
